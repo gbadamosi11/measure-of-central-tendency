@@ -1,9 +1,10 @@
+
 function mean(array){
-    let sum = array.reduce((a, b) => a + b, 0);
+    mean = array.reduce((a, b) => a + b, 0);
     // for(let i = 0; i < array.length; i++){
     //     sum += array[i];
     // }
-    return sum / array.length;
+    return mean / array.length;
 }
 
 function median(array){
@@ -34,8 +35,8 @@ function mode(array){
     return modes;
 }
 
-const data = [1,2,8,8,8,2,5,7];
+const data = [1,2,2,4];
 
 console.log(mean(data));
 console.log(median(data));
-console.log(mode(data));
+console.log(mode(data));;

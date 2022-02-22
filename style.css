@@ -3,3 +3,46 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+body{
+    font-family: sans-serif;
+}
+
+ul{
+    list-style: none;
+}
+
+.cal{
+    height: 100vh;
+}
+h1{
+    font-size: 3rem;
+}
+.container{
+    padding: 2rem 5rem;    
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+
+#numbers{
+    padding: .8rem 2rem;
+    outline: none;
+    border: 1px solid #c4c4c4;
+    border-radius: .4rem;
+}
+
+button{
+    outline: none;
+    font-size: 1.2rem;
+    border: none;
+    padding: .5rem 1rem;
+    margin-left: 2rem;
+    background-color: green;
+    color: #fff;
+}
+.results{
+    font-size: 1.2rem;
+    padding-bottom: 1rem;
+    text-transform: capitalize;
+}
