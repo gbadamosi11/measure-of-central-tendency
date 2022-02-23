@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,24 +8,27 @@
     <link rel="stylesheet" href="style.css">
     <title>MMMS</title>
 </head>
+
 <body>
     <div class="calc">
         <div class="container">
             <h1>Measure Of Central Tendency</h1>
             <span>
                 <input type="text" id="numbers">
-                <button>Calculate</button>
+                <button id="calculate">Calculate</button>
             </span>
 
             <ul class="list">
-                <li class="results" id="mean">mean:</li>
-                <li class="results" id="median">median:</li>
-                <li class="results" id="mode">mode:</li>
-                <li class="results" id="standard-deviation">standard-deviation:</li> 
+                <li class="results">mean: <span id="mean"></span></li>
+                <li class="results">median: <span id="median"></span></li>
+                <li class="results">mode: <span id="mode"></span></li>
+                <li class="results">standard-deviation: <span id="standard-deviation"></span>
+                </li>
             </ul>
         </div>
     </div>
-    
+
     <script src="app.js"></script>
 </body>
+
 </html>
